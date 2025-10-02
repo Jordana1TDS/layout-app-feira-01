@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-primaria:#DCF2F1;
+    --cor-secundaria:#7FC7D9;
+    --cor-terciaria:#365486;
+    --cor-texto: #0F1035; 
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*----------------------Layout do APP------------------*/
+.tela-principal{    
+
+    display: block;    
+    width: 100%;
+}
+
+.barra-nav{
+border: 1px solid #000;
+
+}
+
+.barra-nav-conteudo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.barra-nav-conteudo h2 {
+    color: var(--cor-primaria);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+    .painel-boas-vindas {
+        margin: 10px;
+    }
+
+    .painel-boas-vindas button {
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+
+    }
+
+    .painel-boas-vindas p {
+    margin: 10px;
+    padding: 10px;
+    }
+
+    .painel-boas-vindas h3{
+        color: var(--cor-texto)
+    }
+
+    .painel-boas-vindas p{
+        margin: 10px;
+    }
+
+    .painel-cards {        
+        width:100%;
+        padding: 10px;
+     }
+
+    .painel-cards .card {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid green;
+        margin-bottom: 10px;
+         border-radius: 10px;
+    }
+
+     .painel-cards .card .turma-titulo {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .painel-cards .card .imagem {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .painel-cards .card .descricao {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .painel-cards .card .descricao button {
+        width: 80%;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .painel-cards .card p {
+     margin: 10px;
+     text-align: center;
+    }
+
+        .footer {
+            text-align: center;
+        }
+
